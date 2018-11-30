@@ -28,52 +28,53 @@ ul {
 
 .top-navigation {
   background-color: #fff;
-  position: fixed;
-  width: 100%;
-  border-bottom: 1px solid #DDD;
-  z-index: 9999;
+  /* position: fixed; */
+  /* width: 100%; */
+  /* border-bottom: 1px solid #DDD; */
+  /* z-index: 9999; */
 }
 
 .top-navigation>.content {
-  height: 4.375rem;
+  height: 120px;
+  width: 1200px;
 }
 
 .top-navigation .logo {
-  height: 4.375rem;
+  height: 110px;
+  float: left;
 }
 
-.top-navigation .links {
+/* .top-navigation .links {
   float: right;
   color: #838994;
   font-size: 1.04rem;
   margin-top: 1.7rem;
-}
+} */
 
-.top-navigation .links li {
+/* .top-navigation .links li {
   display: inline-block;
   margin-left: 1.563rem;
-}
+} */
 
-.top-navigation .links li.active {
+/* .top-navigation .links li.active {
   color: #4c5058;
   font-weight: 500;
-}
+} */
 
-.top-navigation .links li:hover {
+/* .top-navigation .links li:hover {
   cursor: pointer;
   color: #333333;
-}
+} */
 
 /**
  * Introduction Section
  */
 
 .introduction {
-  background: url('images/Home.png') no-repeat center bottom;
+  background: url('images/Alternative.png') no-repeat center bottom;
   background-size: cover;
   height: 45.938rem;
   overflow: auto;
-  opacity: 20%;
   /* filter: brightness(100%); */
 }
 
